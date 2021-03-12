@@ -4,13 +4,13 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Your Text Here",
+details : "Developing Hadess",
 assets : {
-large_image : "Image",
-large_text : "Your Status" // THIS WILL SHOW AS "Playing <Status>" from the outisde
+large_image : "hades",
+large_text : "Hadess" // THIS WILL SHOW AS "Playing <Status>" from the outisde
 },
-buttons : [{label : "Button1" , url : "Link1"},{label : "Button2",url : "Link2"}]
+buttons : [{label : "Team Funzomb" , url : "https://discord.gg/zDTGfCrsmd"},{label : "Hadess",url : "Link2"}]
 }
 })
 })
-client.login({ clientId : "ApplicationID" }).catch(console.error);
+client.login({ clientId : "820022375923974154" }).catch(console.error);
